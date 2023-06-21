@@ -167,7 +167,8 @@ class ESC_POS_Printer : public Print {
             underlineOn(uint8_t weight=1),
             upsideDownOff(),
             upsideDownOn(),
-            wake();
+            wake(),
+            cutPaper();
         bool
             hasPaper();
 
